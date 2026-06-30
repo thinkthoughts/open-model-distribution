@@ -1,0 +1,3 @@
+artifact,location,content_id,matches_published_identity
+original,results/07_content_addressing/artifacts/toy-weights.bin,sha256:ec582045f663f1c2a85f26877e42e2d2e6ac849c486999767308a34d1b362866,True
+changed one byte,results/07_content_addressing/artifacts/toy-weights-changed.bin,sha256:89f20ee14e4da8ff1c087ac155e63496895cf7baab1fae42f3f39ca58281d7d3,False

@@ -1,0 +1,8 @@
+{
+  "artifact": "results/07_content_addressing/artifacts/toy-weights.bin",
+  "size_bytes": 32792,
+  "algorithm": "sha256",
+  "digest": "ec582045f663f1c2a85f26877e42e2d2e6ac849c486999767308a34d1b362866",
+  "content_id": "sha256:ec582045f663f1c2a85f26877e42e2d2e6ac849c486999767308a34d1b362866",
+  "statement": "Identity follows content bytes, not storage location."
+}

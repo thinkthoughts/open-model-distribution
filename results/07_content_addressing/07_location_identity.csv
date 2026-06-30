@@ -1,0 +1,5 @@
+label,location,size_bytes,content_id,same_identity_as_source
+source,results/07_content_addressing/artifacts/toy-weights.bin,32792,sha256:ec582045f663f1c2a85f26877e42e2d2e6ac849c486999767308a34d1b362866,True
+copy_1,results/07_content_addressing/mirror_a/weights.bin,32792,sha256:ec582045f663f1c2a85f26877e42e2d2e6ac849c486999767308a34d1b362866,True
+copy_2,results/07_content_addressing/mirror_b/renamed-model-object.dat,32792,sha256:ec582045f663f1c2a85f26877e42e2d2e6ac849c486999767308a34d1b362866,True
+copy_3,results/07_content_addressing/archive/2026/toy-open-model.bin,32792,sha256:ec582045f663f1c2a85f26877e42e2d2e6ac849c486999767308a34d1b362866,True

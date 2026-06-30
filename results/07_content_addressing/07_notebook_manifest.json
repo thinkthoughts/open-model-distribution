@@ -1,0 +1,27 @@
+{
+  "notebook": "07_content_addressing.ipynb",
+  "title": "Content Addressing Specifies Model Distribution",
+  "primary_specification": "content addressing",
+  "statement": "Identity follows content, not storage location.",
+  "equations": [
+    "I = H(C)",
+    "I(C_1)=I(C_2) iff C_1=C_2, assuming collision resistance",
+    "V = (H(C_received)=H(C_published))",
+    "I != location",
+    "Summary table maps identity, verification, distribution, and preview specifications"
+  ],
+  "outputs": {
+    "content_identity": "results/07_content_addressing/07_content_identity.json",
+    "content_manifest": "results/07_content_addressing/07_content_manifest.json",
+    "chunk_manifest": "results/07_content_addressing/07_chunk_manifest.json",
+    "location_identity_csv": "results/07_content_addressing/07_location_identity.csv",
+    "changed_bytes_csv": "results/07_content_addressing/07_changed_bytes.csv",
+    "chunk_table_csv": "results/07_content_addressing/07_chunk_table.csv",
+    "addressing_comparison_csv": "results/07_content_addressing/07_addressing_comparison.csv",
+    "identity_vs_location_figure": "figures/07_identity_vs_location.png",
+    "changed_bytes_figure": "figures/07_changed_bytes.png",
+    "pipeline_figure": "figures/07_content_addressing_pipeline.png",
+    "chunk_manifest_figure": "figures/07_chunk_manifest.png",
+    "comparison_figure": "figures/07_location_vs_content_addressing.png"
+  }
+}
