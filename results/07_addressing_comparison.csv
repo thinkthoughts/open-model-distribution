@@ -1,3 +1,0 @@
-distribution_style,identifier,changes_when_location_moves,verifies_bytes_directly,engineering_risk
-location-based,URL / repository path / bucket key,True,False,"link rot, takedown, mirror drift"
-content-addressed,cryptographic digest,False,True,requires manifest discipline and hash verification
