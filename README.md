@@ -1,61 +1,125 @@
-# open-model-distribution
+# Open Model Distribution
 
-Engineering specifications for reproducible, verifiable, and resilient open model distribution.
+Executable engineering specifications for distributing large AI artifacts
+using immutable content identities, chunking, replication, discovery,
+scheduling, and end-to-end verification.
 
-## Primary specification
+---
 
-Open model distribution is specified by content addressing, cryptographic verification, and distributed replication.
+<p align="center">
+  <img
+    src="figures/open-model-distribution-repo.png"
+    alt="Open Model Distribution repository architecture"
+    width="900">
+</p>
 
-## Report map
+---
 
-- `zanoga01` — Distributed Replication Specifies Open AI Infrastructure
-- `zanoga02` — Content Addressing Specifies Model Distribution
+## Repository architecture
 
-## Specification hierarchy
+The notebook series develops a complete engineering pipeline:
 
-1. Open Model Distribution — repository mission
-2. Content Addressing — identity specification
-3. Cryptographic Verification — integrity specification
-4. Distributed Replication — availability specification
-5. Independent Network Paths — resilience specification
+```
+content
 
-## Starter roadmap
+→ content addressing
+→ chunking
+→ verification
+→ manifests
+→ replication
+→ discovery
+→ scheduling
+→ integrated architecture
 
-| Notebook | Topic | Role |
-|---|---|---|
-| `00_context.ipynb` | Context | Motivation and system boundary |
-| `07_content_addressing.ipynb` | Content addressing | Identity specification |
-| `13_cryptographic_verification.ipynb` | Verification | Integrity specification |
-| `17_chunking.ipynb` | Chunking | Transfer and reconstruction |
-| `23_replication.ipynb` | Replication | Availability specification |
-| `29_peer_to_peer_networks.ipynb` | P2P networks | Routing and discovery |
-| `37_reproducibility.ipynb` | Reproducibility | Manifests and releases |
-| `43_reference_architecture.ipynb` | Architecture | End-to-end distribution design |
-| `47_security_considerations.ipynb` | Security | Threat model and mitigations |
-| `53_open_infrastructure.ipynb` | Open infrastructure | Operational next steps |
+→ verified model artifact
+```
 
-## Core equations
+Each notebook isolates one engineering responsibility before integrating
+the complete open model distribution architecture.
 
-Identity:
+---
 
-\[
-I = H(C)
-\]
+## Notebook roadmap
 
-Verification:
+| Notebook | Topic |
+|-----------|-------|
+| 00 | Content Addressing |
+| 07 | Chunking |
+| 13 | Verification |
+| 17 | Content Manifests |
+| 23 | Replication |
+| 29 | Discovery |
+| 37 | Scheduling |
+| 43 | Integrated Architecture |
 
-\[
-V = \left(H(C_{received}) = H(C_{published})\right)
-\]
+---
 
-Availability:
+## Run online
 
-\[
-A \propto RP
-\]
+| Notebook | Colab |
+|----------|-------|
+| 00 | https://colab.research.google.com/github/thinkthoughts/open-model-distribution/blob/main/notebooks/00_content_addressing.ipynb |
+| 07 | https://colab.research.google.com/github/thinkthoughts/open-model-distribution/blob/main/notebooks/07_chunking.ipynb |
+| 13 | https://colab.research.google.com/github/thinkthoughts/open-model-distribution/blob/main/notebooks/13_verification.ipynb |
+| 17 | https://colab.research.google.com/github/thinkthoughts/open-model-distribution/blob/main/notebooks/17_content_manifests.ipynb |
+| 23 | https://colab.research.google.com/github/thinkthoughts/open-model-distribution/blob/main/notebooks/23_replication.ipynb |
+| 29 | https://colab.research.google.com/github/thinkthoughts/open-model-distribution/blob/main/notebooks/29_discovery.ipynb |
+| 37 | https://colab.research.google.com/github/thinkthoughts/open-model-distribution/blob/main/notebooks/37_scheduling.ipynb |
+| 43 | https://colab.research.google.com/github/thinkthoughts/open-model-distribution/blob/main/notebooks/43_integrated_architecture.ipynb |
 
-Open model distribution:
+---
 
-\[
-D \propto C V R P
-\]
+## Related Lab Reports
+
+These reports summarize the engineering specifications developed throughout
+the notebook series.
+
+### Open Model Distribution Demystifies Large AI Artifacts
+
+https://labreports.app/zanoga01/
+
+Introduces the complete content-addressed architecture, including immutable
+identities, chunking, replication, discovery, scheduling, and verification.
+
+---
+
+### Verification Specifies Trust in Open Model Distribution
+
+https://labreports.app/zanoga02/
+
+Explains why digest verification remains the invariant throughout chunk
+verification, replica selection, scheduling, transfer, reassembly, and final
+artifact acceptance.
+
+---
+
+### Notebook Index
+
+https://labreports.app/zanoga/
+
+Browse the complete executable notebook series with figures, equations,
+engineering summaries, and Colab links.
+
+---
+
+## Engineering specification
+
+```
+identity
+    ↓
+verification
+    ↓
+chunking
+    ↓
+replication
+    ↓
+discovery
+    ↓
+scheduling
+    ↓
+integrated architecture
+```
+
+The implementation changes.
+
+The engineering specification persists.
