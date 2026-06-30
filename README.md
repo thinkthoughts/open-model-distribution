@@ -58,8 +58,8 @@ the complete open model distribution architecture.
 
 | Notebook | Colab |
 |----------|-------|
-| 00 | https://colab.research.google.com/github/thinkthoughts/open-model-distribution/blob/main/notebooks/00_content.ipynb |
-| 07 | https://colab.research.google.com/github/thinkthoughts/open-model-distribution/blob/main/notebooks/07_chunking.ipynb |
+| 00 | https://colab.research.google.com/github/thinkthoughts/open-model-distribution/blob/main/notebooks/00_context.ipynb |
+| 07 | https://colab.research.google.com/github/thinkthoughts/open-model-distribution/blob/main/notebooks/07_content_addressing.ipynb |
 | 13 | https://colab.research.google.com/github/thinkthoughts/open-model-distribution/blob/main/notebooks/13_verification.ipynb |
 | 17 | https://colab.research.google.com/github/thinkthoughts/open-model-distribution/blob/main/notebooks/17_content_manifests.ipynb |
 | 23 | https://colab.research.google.com/github/thinkthoughts/open-model-distribution/blob/main/notebooks/23_replication.ipynb |
