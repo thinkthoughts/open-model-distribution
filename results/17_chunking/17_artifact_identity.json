@@ -1,0 +1,7 @@
+{
+  "artifact": "results/17_chunking/artifacts/toy-large-model.bin",
+  "size_bytes": 131166,
+  "algorithm": "sha256",
+  "digest": "a04f1ce7d4f99e6d653e427aeb46d2fc1c7975d5b2492337f110a8347d7f6936",
+  "content_id": "sha256:a04f1ce7d4f99e6d653e427aeb46d2fc1c7975d5b2492337f110a8347d7f6936"
+}

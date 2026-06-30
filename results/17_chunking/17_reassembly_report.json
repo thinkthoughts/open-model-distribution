@@ -1,0 +1,7 @@
+{
+  "reassembled": true,
+  "output": "results/17_chunking/reassembly/reassembled-model.bin",
+  "digest": "a04f1ce7d4f99e6d653e427aeb46d2fc1c7975d5b2492337f110a8347d7f6936",
+  "matches_original": true,
+  "failed_indices": []
+}

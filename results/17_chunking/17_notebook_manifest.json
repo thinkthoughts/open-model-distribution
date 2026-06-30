@@ -1,0 +1,28 @@
+{
+  "notebook": "17_chunking.ipynb",
+  "title": "Chunking Specifies Large Model Distribution",
+  "primary_specification": "chunking",
+  "statement": "Large artifacts become distributable when split into independently verifiable transfer units.",
+  "equations": [
+    "C=(c_0,c_1,...,c_{n-1})",
+    "I_i=H(c_i)",
+    "M={(i,I_i,|c_i|)}",
+    "V_i=(H(c_i_received)=I_i)",
+    "R_assemble=AND_i V_i"
+  ],
+  "outputs": {
+    "artifact_identity": "results/17_chunking/17_artifact_identity.json",
+    "chunk_manifest": "results/17_chunking/17_chunk_manifest.json",
+    "chunk_table_csv": "results/17_chunking/17_chunk_table.csv",
+    "chunk_verification_csv": "results/17_chunking/17_chunk_verification.csv",
+    "reassembly_report": "results/17_chunking/17_reassembly_report.json",
+    "corrupt_chunk_report": "results/17_chunking/17_corrupt_chunk_report.csv",
+    "merkle_preview": "results/17_chunking/17_merkle_preview.json",
+    "chunking_pipeline_figure": "figures/17_chunking_pipeline.png",
+    "chunk_manifest_figure": "figures/17_chunk_manifest.png",
+    "chunk_verification_figure": "figures/17_chunk_verification.png",
+    "reassembly_figure": "figures/17_reassembly.png",
+    "corrupt_chunk_figure": "figures/17_corrupt_chunk_detection.png",
+    "merkle_preview_figure": "figures/17_merkle_preview.png"
+  }
+}
