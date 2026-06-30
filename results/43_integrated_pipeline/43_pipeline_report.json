@@ -1,0 +1,25 @@
+{
+  "schema": "open-model-distribution.integrated-pipeline-report.v0",
+  "artifact_content_id": "sha256:1dc3703e8204ba77679731ce32ea8a8117fb8bb8e386c1a06e376c68829689f9",
+  "artifact_digest": "1dc3703e8204ba77679731ce32ea8a8117fb8bb8e386c1a06e376c68829689f9",
+  "chunk_count": 9,
+  "replica_source_count": 3,
+  "candidate_transfer_count": 27,
+  "download_attempt_count": 9,
+  "accepted_chunk_count": 9,
+  "all_chunks_accepted": true,
+  "final_verification": "PASS",
+  "pipeline": [
+    "content addressing",
+    "verification identity",
+    "chunking",
+    "replication",
+    "discovery",
+    "scheduling",
+    "download",
+    "chunk verification",
+    "reassembly",
+    "final verification"
+  ],
+  "statement": "Open model distribution is accepted only after chunk verification, ordered reassembly, and final artifact digest verification."
+}

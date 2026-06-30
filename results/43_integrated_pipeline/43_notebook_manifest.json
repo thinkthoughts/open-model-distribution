@@ -1,0 +1,35 @@
+{
+  "notebook": "43_integrated_pipeline.ipynb",
+  "title": "Integrated Pipeline Specifies Open Model Distribution",
+  "primary_specification": "integrated architecture",
+  "statement": "Open model distribution composes identity, verification, chunking, replication, discovery, scheduling, reassembly, and final verification.",
+  "equations": [
+    "I=H(C)",
+    "I_i=H(c_i)",
+    "D(I_i)->{L_i1,L_i2,...}",
+    "s*=argmin cost(s)",
+    "C=c_0||...||c_{n-1}",
+    "H(C_reassembled)=I"
+  ],
+  "outputs": {
+    "artifact_identity": "results/43_integrated_pipeline/43_artifact_identity.json",
+    "chunk_manifest": "results/43_integrated_pipeline/43_chunk_manifest.json",
+    "chunk_plan_csv": "results/43_integrated_pipeline/43_chunk_plan.csv",
+    "source_table_csv": "results/43_integrated_pipeline/43_source_table.csv",
+    "replica_table_csv": "results/43_integrated_pipeline/43_replica_table.csv",
+    "discovery_csv": "results/43_integrated_pipeline/43_discovery.csv",
+    "discovery_manifest": "results/43_integrated_pipeline/43_discovery_manifest.json",
+    "transfer_schedule_csv": "results/43_integrated_pipeline/43_transfer_schedule.csv",
+    "download_log_csv": "results/43_integrated_pipeline/43_download_log.csv",
+    "verification_csv": "results/43_integrated_pipeline/43_verification.csv",
+    "reassembly_csv": "results/43_integrated_pipeline/43_reassembly.csv",
+    "pipeline_json": "results/43_integrated_pipeline/43_pipeline.json",
+    "pipeline_report": "results/43_integrated_pipeline/43_pipeline_report.json",
+    "complete_pipeline_figure": "figures/43_complete_pipeline.png",
+    "architecture_layers_figure": "figures/43_architecture_layers.png",
+    "component_stack_figure": "figures/43_component_stack.png",
+    "chunk_lifecycle_figure": "figures/43_chunk_lifecycle.png",
+    "parallel_downloads_figure": "figures/43_parallel_downloads.png",
+    "final_verification_figure": "figures/43_final_verification.png"
+  }
+}

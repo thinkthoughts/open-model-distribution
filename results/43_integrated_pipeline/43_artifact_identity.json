@@ -1,0 +1,7 @@
+{
+  "artifact": "results/43_integrated_pipeline/artifact/toy-open-model.bin",
+  "size_bytes": 16537,
+  "algorithm": "sha256",
+  "digest": "1dc3703e8204ba77679731ce32ea8a8117fb8bb8e386c1a06e376c68829689f9",
+  "content_id": "sha256:1dc3703e8204ba77679731ce32ea8a8117fb8bb8e386c1a06e376c68829689f9"
+}

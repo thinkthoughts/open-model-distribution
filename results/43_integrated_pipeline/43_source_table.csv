@@ -1,0 +1,4 @@
+source,kind,latency_ms,load,failure_risk
+server_A,server,48,0.65,0.1
+mirror_B,mirror,75,0.3,0.08
+peer_C,peer,56,0.45,0.24

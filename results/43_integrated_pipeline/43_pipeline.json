@@ -1,0 +1,16 @@
+{
+  "steps": [
+    "content addressing",
+    "verification identity",
+    "chunking",
+    "replication",
+    "discovery",
+    "scheduling",
+    "download",
+    "chunk verification",
+    "reassembly",
+    "final verification"
+  ],
+  "artifact_content_id": "sha256:1dc3703e8204ba77679731ce32ea8a8117fb8bb8e386c1a06e376c68829689f9",
+  "status": "PASS"
+}
