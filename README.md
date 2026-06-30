@@ -58,14 +58,14 @@ the complete open model distribution architecture.
 
 | Notebook | Colab |
 |----------|-------|
-| 00 | https://colab.research.google.com/github/thinkthoughts/open-model-distribution/blob/main/notebooks/00_content_addressing.ipynb |
+| 00 | https://colab.research.google.com/github/thinkthoughts/open-model-distribution/blob/main/notebooks/00_content.ipynb |
 | 07 | https://colab.research.google.com/github/thinkthoughts/open-model-distribution/blob/main/notebooks/07_chunking.ipynb |
 | 13 | https://colab.research.google.com/github/thinkthoughts/open-model-distribution/blob/main/notebooks/13_verification.ipynb |
 | 17 | https://colab.research.google.com/github/thinkthoughts/open-model-distribution/blob/main/notebooks/17_content_manifests.ipynb |
 | 23 | https://colab.research.google.com/github/thinkthoughts/open-model-distribution/blob/main/notebooks/23_replication.ipynb |
 | 29 | https://colab.research.google.com/github/thinkthoughts/open-model-distribution/blob/main/notebooks/29_discovery.ipynb |
 | 37 | https://colab.research.google.com/github/thinkthoughts/open-model-distribution/blob/main/notebooks/37_scheduling.ipynb |
-| 43 | https://colab.research.google.com/github/thinkthoughts/open-model-distribution/blob/main/notebooks/43_integrated_architecture.ipynb |
+| 43 | https://colab.research.google.com/github/thinkthoughts/open-model-distribution/blob/main/notebooks/43_integrated_pipeline.ipynb |
 
 ---
 
