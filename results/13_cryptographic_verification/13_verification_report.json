@@ -1,0 +1,39 @@
+{
+  "notebook": "13_cryptographic_verification.ipynb",
+  "title": "Cryptographic Verification Specifies Trust",
+  "published_manifest": "results/13_cryptographic_verification/13_manifest.json",
+  "published_digest": "27c68b6302e70688a8f2deebc3d355b3695adcaf2b53f208739ebf8f7daca26c",
+  "published_content_id": "sha256:27c68b6302e70688a8f2deebc3d355b3695adcaf2b53f208739ebf8f7daca26c",
+  "accepted_count": 2,
+  "rejected_count": 1,
+  "statement": "Received bytes are accepted only when their digest matches the published identity.",
+  "records": [
+    {
+      "artifact": "published source",
+      "path": "results/13_cryptographic_verification/artifacts/published-model.bin",
+      "size_bytes": 65600,
+      "published_digest": "27c68b6302e70688a8f2deebc3d355b3695adcaf2b53f208739ebf8f7daca26c",
+      "local_digest": "27c68b6302e70688a8f2deebc3d355b3695adcaf2b53f208739ebf8f7daca26c",
+      "verification": "PASS",
+      "accepted": true
+    },
+    {
+      "artifact": "received good copy",
+      "path": "results/13_cryptographic_verification/received/received-good.bin",
+      "size_bytes": 65600,
+      "published_digest": "27c68b6302e70688a8f2deebc3d355b3695adcaf2b53f208739ebf8f7daca26c",
+      "local_digest": "27c68b6302e70688a8f2deebc3d355b3695adcaf2b53f208739ebf8f7daca26c",
+      "verification": "PASS",
+      "accepted": true
+    },
+    {
+      "artifact": "received changed copy",
+      "path": "results/13_cryptographic_verification/received/received-changed.bin",
+      "size_bytes": 65600,
+      "published_digest": "27c68b6302e70688a8f2deebc3d355b3695adcaf2b53f208739ebf8f7daca26c",
+      "local_digest": "eddabafe2e15603b1a4793b234b3a54926bb38d255d4c0e10388764b62817822",
+      "verification": "FAIL",
+      "accepted": false
+    }
+  ]
+}

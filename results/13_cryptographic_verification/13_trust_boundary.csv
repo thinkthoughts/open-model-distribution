@@ -1,0 +1,4 @@
+zone,role,trusted_for,not_trusted_for
+publisher,publishes digest and manifest,identity statement,receiver-side verification
+network,moves bytes,availability only,content integrity
+receiver,hashes received bytes and compares digest,local verification decision,original authorship

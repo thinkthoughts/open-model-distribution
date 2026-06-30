@@ -1,0 +1,7 @@
+field,value,purpose
+schema,open-model-distribution.verification-manifest.v0,manifest interpretation
+algorithm,sha256,hash function
+digest,27c68b6302e70688a8f2deeb…,published identity
+content_id,sha256:27c68b6302e70688a8f2deebc…,addressable identity
+size_bytes,65600,basic consistency check
+verification_rule,sha256(received_bytes) == published_digest,acceptance condition

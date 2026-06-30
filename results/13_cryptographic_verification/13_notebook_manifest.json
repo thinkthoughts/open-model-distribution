@@ -1,0 +1,24 @@
+{
+  "notebook": "13_cryptographic_verification.ipynb",
+  "title": "Cryptographic Verification Specifies Trust",
+  "primary_specification": "cryptographic verification",
+  "statement": "Received bytes are accepted only when their digest matches the published identity.",
+  "equations": [
+    "I = H(C)",
+    "V = (H(C_received)=H(C_published))",
+    "V in {PASS, FAIL}",
+    "Trust = published identity + local verification"
+  ],
+  "outputs": {
+    "manifest": "results/13_cryptographic_verification/13_manifest.json",
+    "verification_csv": "results/13_cryptographic_verification/13_verification.csv",
+    "tampering_csv": "results/13_cryptographic_verification/13_tampering.csv",
+    "trust_boundary_csv": "results/13_cryptographic_verification/13_trust_boundary.csv",
+    "manifest_table_csv": "results/13_cryptographic_verification/13_manifest_table.csv",
+    "verification_report": "results/13_cryptographic_verification/13_verification_report.json",
+    "verification_pipeline_figure": "figures/13_verification_pipeline.png",
+    "tampering_figure": "figures/13_tampering.png",
+    "trust_boundary_figure": "figures/13_trust_boundary.png",
+    "manifest_figure": "figures/13_manifest.png"
+  }
+}

@@ -1,0 +1,3 @@
+case,digest_prefix,matches_published
+original,27c68b6302e70688,True
+changed one byte,eddabafe2e15603b,False
