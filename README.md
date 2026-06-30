@@ -4,6 +4,7 @@ Executable engineering specifications for distributing large AI artifacts
 using immutable content identities, chunking, replication, discovery,
 scheduling, and end-to-end verification.
 
+<a href="https://x.com/dan_hawkley/status/2072022989038821578">TWEET</a>
 ---
 
 <p align="center">
