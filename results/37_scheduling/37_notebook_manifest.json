@@ -1,0 +1,26 @@
+{
+  "notebook": "37_scheduling.ipynb",
+  "title": "Scheduling Specifies Efficient Distribution",
+  "primary_specification": "scheduling",
+  "statement": "Discovered candidate replicas become useful when transfers are ordered into a verifiable schedule.",
+  "equations": [
+    "Q={(c_i,L_j)}",
+    "cost=alpha latency + beta load + gamma risk",
+    "s*=argmin cost(s)",
+    "V_i=(H(c_i_received)=I_i)",
+    "efficient distribution=ordered transfers+local verification"
+  ],
+  "outputs": {
+    "chunk_table_csv": "results/37_scheduling/37_chunk_table.csv",
+    "replica_costs_csv": "results/37_scheduling/37_replica_costs.csv",
+    "transfer_queue_csv": "results/37_scheduling/37_transfer_queue.csv",
+    "schedule_csv": "results/37_scheduling/37_schedule.csv",
+    "transfer_attempts_csv": "results/37_scheduling/37_transfer_attempts.csv",
+    "accepted_transfers_csv": "results/37_scheduling/37_accepted_transfers.csv",
+    "verification_report": "results/37_scheduling/37_verification_report.json",
+    "scheduling_pipeline_figure": "figures/37_scheduling_pipeline.png",
+    "replica_costs_figure": "figures/37_replica_costs.png",
+    "scheduled_downloads_figure": "figures/37_scheduled_downloads.png",
+    "verify_after_schedule_figure": "figures/37_verify_after_schedule.png"
+  }
+}

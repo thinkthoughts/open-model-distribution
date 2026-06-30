@@ -1,0 +1,101 @@
+{
+  "schema": "open-model-distribution.scheduling-report.v0",
+  "chunk_count": 4,
+  "candidate_count": 12,
+  "accepted_count": 4,
+  "fallback_attempts": 0,
+  "all_chunks_verified": true,
+  "statement": "Scheduling optimizes transfer order; verification still accepts chunks.",
+  "accepted_transfers": [
+    {
+      "chunk_index": 0,
+      "attempt_rank": 1,
+      "source": "server_A",
+      "cost": 99.0,
+      "retrieved_path": "results/37_scheduling/received/chunk_0000_from_server_A.bin",
+      "local_sha256": "3ceb7f578e129506f020b6af0759e82a0352497a5ed1d3495620a10a21d5d7ab",
+      "expected_sha256": "3ceb7f578e129506f020b6af0759e82a0352497a5ed1d3495620a10a21d5d7ab",
+      "verification": "PASS",
+      "accepted": true
+    },
+    {
+      "chunk_index": 1,
+      "attempt_rank": 1,
+      "source": "server_A",
+      "cost": 99.0,
+      "retrieved_path": "results/37_scheduling/received/chunk_0001_from_server_A.bin",
+      "local_sha256": "89f642f30b212a4a2bbb6436edb7a73f0faeeb9bece83fd57b0106433b7f46db",
+      "expected_sha256": "89f642f30b212a4a2bbb6436edb7a73f0faeeb9bece83fd57b0106433b7f46db",
+      "verification": "PASS",
+      "accepted": true
+    },
+    {
+      "chunk_index": 2,
+      "attempt_rank": 1,
+      "source": "server_A",
+      "cost": 99.0,
+      "retrieved_path": "results/37_scheduling/received/chunk_0002_from_server_A.bin",
+      "local_sha256": "8e64e82dd49c82f32be0b31dd3f705b2b3c08bea9c494c862094975ccb4cf94e",
+      "expected_sha256": "8e64e82dd49c82f32be0b31dd3f705b2b3c08bea9c494c862094975ccb4cf94e",
+      "verification": "PASS",
+      "accepted": true
+    },
+    {
+      "chunk_index": 3,
+      "attempt_rank": 1,
+      "source": "server_A",
+      "cost": 99.0,
+      "retrieved_path": "results/37_scheduling/received/chunk_0003_from_server_A.bin",
+      "local_sha256": "1592327ad5b857367bd7df67c6ef7ec89921ce103b752aece618533438a38f9f",
+      "expected_sha256": "1592327ad5b857367bd7df67c6ef7ec89921ce103b752aece618533438a38f9f",
+      "verification": "PASS",
+      "accepted": true
+    }
+  ],
+  "attempts": [
+    {
+      "chunk_index": 0,
+      "attempt_rank": 1,
+      "source": "server_A",
+      "cost": 99.0,
+      "retrieved_path": "results/37_scheduling/received/chunk_0000_from_server_A.bin",
+      "local_sha256": "3ceb7f578e129506f020b6af0759e82a0352497a5ed1d3495620a10a21d5d7ab",
+      "expected_sha256": "3ceb7f578e129506f020b6af0759e82a0352497a5ed1d3495620a10a21d5d7ab",
+      "verification": "PASS",
+      "accepted": true
+    },
+    {
+      "chunk_index": 1,
+      "attempt_rank": 1,
+      "source": "server_A",
+      "cost": 99.0,
+      "retrieved_path": "results/37_scheduling/received/chunk_0001_from_server_A.bin",
+      "local_sha256": "89f642f30b212a4a2bbb6436edb7a73f0faeeb9bece83fd57b0106433b7f46db",
+      "expected_sha256": "89f642f30b212a4a2bbb6436edb7a73f0faeeb9bece83fd57b0106433b7f46db",
+      "verification": "PASS",
+      "accepted": true
+    },
+    {
+      "chunk_index": 2,
+      "attempt_rank": 1,
+      "source": "server_A",
+      "cost": 99.0,
+      "retrieved_path": "results/37_scheduling/received/chunk_0002_from_server_A.bin",
+      "local_sha256": "8e64e82dd49c82f32be0b31dd3f705b2b3c08bea9c494c862094975ccb4cf94e",
+      "expected_sha256": "8e64e82dd49c82f32be0b31dd3f705b2b3c08bea9c494c862094975ccb4cf94e",
+      "verification": "PASS",
+      "accepted": true
+    },
+    {
+      "chunk_index": 3,
+      "attempt_rank": 1,
+      "source": "server_A",
+      "cost": 99.0,
+      "retrieved_path": "results/37_scheduling/received/chunk_0003_from_server_A.bin",
+      "local_sha256": "1592327ad5b857367bd7df67c6ef7ec89921ce103b752aece618533438a38f9f",
+      "expected_sha256": "1592327ad5b857367bd7df67c6ef7ec89921ce103b752aece618533438a38f9f",
+      "verification": "PASS",
+      "accepted": true
+    }
+  ]
+}

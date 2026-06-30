@@ -1,0 +1,13 @@
+chunk_index,attempt_rank,source,candidate_path,cost,expected_sha256
+0,1,server_A,results/37_scheduling/sources/server_A/chunk_0000.bin,99.0,3ceb7f578e129506f020b6af0759e82a0352497a5ed1d3495620a10a21d5d7ab
+0,2,mirror_B,results/37_scheduling/sources/mirror_B/chunk_0000.bin,109.6,3ceb7f578e129506f020b6af0759e82a0352497a5ed1d3495620a10a21d5d7ab
+0,3,peer_C,results/37_scheduling/sources/peer_C/chunk_0000.bin,110.4,3ceb7f578e129506f020b6af0759e82a0352497a5ed1d3495620a10a21d5d7ab
+1,1,server_A,results/37_scheduling/sources/server_A/chunk_0001.bin,99.0,89f642f30b212a4a2bbb6436edb7a73f0faeeb9bece83fd57b0106433b7f46db
+1,2,mirror_B,results/37_scheduling/sources/mirror_B/chunk_0001.bin,109.6,89f642f30b212a4a2bbb6436edb7a73f0faeeb9bece83fd57b0106433b7f46db
+1,3,peer_C,results/37_scheduling/sources/peer_C/chunk_0001.bin,110.4,89f642f30b212a4a2bbb6436edb7a73f0faeeb9bece83fd57b0106433b7f46db
+2,1,server_A,results/37_scheduling/sources/server_A/chunk_0002.bin,99.0,8e64e82dd49c82f32be0b31dd3f705b2b3c08bea9c494c862094975ccb4cf94e
+2,2,mirror_B,results/37_scheduling/sources/mirror_B/chunk_0002.bin,109.6,8e64e82dd49c82f32be0b31dd3f705b2b3c08bea9c494c862094975ccb4cf94e
+2,3,peer_C,results/37_scheduling/sources/peer_C/chunk_0002.bin,110.4,8e64e82dd49c82f32be0b31dd3f705b2b3c08bea9c494c862094975ccb4cf94e
+3,1,server_A,results/37_scheduling/sources/server_A/chunk_0003.bin,99.0,1592327ad5b857367bd7df67c6ef7ec89921ce103b752aece618533438a38f9f
+3,2,mirror_B,results/37_scheduling/sources/mirror_B/chunk_0003.bin,109.6,1592327ad5b857367bd7df67c6ef7ec89921ce103b752aece618533438a38f9f
+3,3,peer_C,results/37_scheduling/sources/peer_C/chunk_0003.bin,110.4,1592327ad5b857367bd7df67c6ef7ec89921ce103b752aece618533438a38f9f
