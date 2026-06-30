@@ -1,0 +1,38 @@
+{
+  "schema": "open-model-distribution.discovery-report.v0",
+  "content_id": "sha256:7c1f9d28e26926fe5914ad372e52710e6e8f51b5477880ba21883a0927e1f599",
+  "candidate_count": 5,
+  "attempt_count": 2,
+  "accepted": true,
+  "accepted_replica": "server_A",
+  "accepted_reason": "verified content identity",
+  "statement": "Discovery finds candidates; verification accepts bytes.",
+  "attempts": [
+    {
+      "replica": "cache_E",
+      "kind": "cache",
+      "reachable": true,
+      "path": "results/29_discovery/replicas/cache_E/discovery-object.bin",
+      "attempted": true,
+      "downloaded": true,
+      "verification": "FAIL",
+      "accepted": false,
+      "reason": "digest mismatch",
+      "retrieved_path": "results/29_discovery/retrieval/retrieved_from_cache_E.bin",
+      "local_digest": "17225ce546e339c7d2c41457925310f56389e22d313ad2388d4147b93554e306"
+    },
+    {
+      "replica": "server_A",
+      "kind": "server",
+      "reachable": true,
+      "path": "results/29_discovery/replicas/server_A/discovery-object.bin",
+      "attempted": true,
+      "downloaded": true,
+      "verification": "PASS",
+      "accepted": true,
+      "reason": "verified content identity",
+      "retrieved_path": "results/29_discovery/retrieval/retrieved_from_server_A.bin",
+      "local_digest": "7c1f9d28e26926fe5914ad372e52710e6e8f51b5477880ba21883a0927e1f599"
+    }
+  ]
+}

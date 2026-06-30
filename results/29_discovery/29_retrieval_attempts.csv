@@ -1,0 +1,3 @@
+replica,kind,reachable,path,attempted,downloaded,verification,accepted,reason,retrieved_path,local_digest
+cache_E,cache,True,results/29_discovery/replicas/cache_E/discovery-object.bin,True,True,FAIL,False,digest mismatch,results/29_discovery/retrieval/retrieved_from_cache_E.bin,17225ce546e339c7d2c41457925310f56389e22d313ad2388d4147b93554e306
+server_A,server,True,results/29_discovery/replicas/server_A/discovery-object.bin,True,True,PASS,True,verified content identity,results/29_discovery/retrieval/retrieved_from_server_A.bin,7c1f9d28e26926fe5914ad372e52710e6e8f51b5477880ba21883a0927e1f599

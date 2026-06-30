@@ -1,0 +1,44 @@
+{
+  "schema": "open-model-distribution.discovery-manifest.v0",
+  "content_id": "sha256:7c1f9d28e26926fe5914ad372e52710e6e8f51b5477880ba21883a0927e1f599",
+  "digest": "7c1f9d28e26926fe5914ad372e52710e6e8f51b5477880ba21883a0927e1f599",
+  "candidate_count": 5,
+  "candidates": [
+    {
+      "replica": "server_A",
+      "kind": "server",
+      "reachable": true,
+      "latency_ms": 52.0,
+      "path": "results/29_discovery/replicas/server_A/discovery-object.bin"
+    },
+    {
+      "replica": "mirror_B",
+      "kind": "mirror",
+      "reachable": false,
+      "latency_ms": NaN,
+      "path": "results/29_discovery/replicas/mirror_B/discovery-object.bin"
+    },
+    {
+      "replica": "peer_C",
+      "kind": "peer",
+      "reachable": true,
+      "latency_ms": 88.0,
+      "path": "results/29_discovery/replicas/peer_C/discovery-object.bin"
+    },
+    {
+      "replica": "archive_D",
+      "kind": "archive",
+      "reachable": true,
+      "latency_ms": 140.0,
+      "path": "results/29_discovery/replicas/archive_D/discovery-object.bin"
+    },
+    {
+      "replica": "cache_E",
+      "kind": "cache",
+      "reachable": true,
+      "latency_ms": 35.0,
+      "path": "results/29_discovery/replicas/cache_E/discovery-object.bin"
+    }
+  ],
+  "statement": "Discovery returns candidate locations; verification decides correctness."
+}

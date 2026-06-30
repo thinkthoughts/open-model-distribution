@@ -1,0 +1,27 @@
+{
+  "notebook": "29_discovery.ipynb",
+  "title": "Discovery Specifies Retrieval",
+  "primary_specification": "discovery",
+  "statement": "Discovery maps a content identity to candidate replica locations; verification accepts bytes.",
+  "equations": [
+    "D(I)->{L_1,...,L_n}",
+    "S subset of D(I)",
+    "T=D(I)->S->C_received->V",
+    "V=(H(C_received)=I)",
+    "A proportional to R P"
+  ],
+  "outputs": {
+    "object_identity": "results/29_discovery/29_object_identity.json",
+    "discovery_manifest": "results/29_discovery/29_discovery_manifest.json",
+    "replica_candidates_csv": "results/29_discovery/29_replica_candidates.csv",
+    "retrieval_attempts_csv": "results/29_discovery/29_retrieval_attempts.csv",
+    "candidate_status_csv": "results/29_discovery/29_candidate_status.csv",
+    "retrieval_report": "results/29_discovery/29_retrieval_report.json",
+    "discovery_pipeline_figure": "figures/29_discovery_pipeline.png",
+    "lookup_manifest_figure": "figures/29_lookup_manifest.png",
+    "discovery_graph_figure": "figures/29_discovery_graph.png",
+    "lookup_vs_verification_figure": "figures/29_lookup_vs_verification.png",
+    "discovery_flow_figure": "figures/29_discovery_flow.png",
+    "failed_lookup_figure": "figures/29_failed_lookup.png"
+  }
+}
