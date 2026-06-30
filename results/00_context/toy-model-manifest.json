@@ -1,0 +1,8 @@
+{
+  "name": "toy-open-model",
+  "artifact": "results/00_context/artifacts/toy-model-card.txt",
+  "algorithm": "sha256",
+  "digest": "853acd52b01570c6a235c050604f5442477523a7219f969a716f8bf8853820e9",
+  "content_id": "sha256:853acd52b01570c6a235c050604f5442477523a7219f969a716f8bf8853820e9",
+  "statement": "Content identity follows bytes, not location."
+}

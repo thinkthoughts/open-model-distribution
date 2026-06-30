@@ -1,0 +1,6 @@
+scenario,C,V,R,P,D_score
+central repository only,1,1,1,1,1
+verified mirror,1,1,2,2,4
+verified P2P swarm,1,1,6,5,30
+"many copies, unverified",1,0,6,5,0
+"verified metadata, missing content",0,1,6,5,0

@@ -1,0 +1,5 @@
+model: toy-open-model
+weights: placeholder
+license: placeholder
+created_for: open-model-distribution notebook 00
+spec: content-addressed distribution

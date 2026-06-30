@@ -1,0 +1,17 @@
+{
+  "notebook": "00_context.ipynb",
+  "title": "Open Model Distribution: Context and Leading Specification",
+  "primary_specification": "open model distribution",
+  "statement": "Open model distribution is specified by content addressing, cryptographic verification, distributed replication, and independent network paths.",
+  "outputs": {
+    "manifest": "results/00_context/toy-model-manifest.json",
+    "availability_csv": "results/00_context/availability_surface.csv",
+    "distribution_scenarios_csv": "results/00_context/distribution_scenarios.csv",
+    "report_map_csv": "results/00_context/report_map.csv",
+    "roadmap_csv": "results/00_context/notebook_roadmap.csv",
+    "specification_flow_figure": "figures/00_specification_flow.png",
+    "availability_figure": "figures/00_availability_surface.png",
+    "distribution_score_figure": "figures/00_distribution_score.png",
+    "site_stub": "site/reports/00/00.html"
+  }
+}

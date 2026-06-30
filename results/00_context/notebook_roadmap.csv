@@ -1,0 +1,9 @@
+notebook,specification,question
+00_context,open model distribution,What are the primary variables?
+07_content_addressing,content identity,How do bytes become addresses?
+13_cryptographic_verification,integrity,How are received bytes verified?
+17_chunking,transfer units,How do large artifacts become movable parts?
+23_replication,availability,How many independent copies are enough?
+29_peer_to_peer_networks,routing,How are peers discovered and reached?
+37_reproducibility,release reconstruction,Can the same artifact be retrieved later?
+43_reference_architecture,system composition,How do the parts fit together?

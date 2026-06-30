@@ -1,0 +1,3 @@
+report,title,primary_property,equation,site_path
+zanoga02,Content Addressing Specifies Model Distribution,identity and integrity,"I = H(C), V = H(received) = H(published)",/zanoga02/
+zanoga01,Distributed Replication Specifies Open AI Infrastructure,availability and resilience,A ∝ R V P,/zanoga01/
