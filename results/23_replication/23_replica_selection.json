@@ -1,0 +1,9 @@
+{
+  "requested_chunk_index": 2,
+  "selected_replica": "server_A",
+  "selected_replica_class": "server",
+  "retrieved_path": "results/23_replication/retrieval/retrieved_chunk_0002.bin",
+  "retrieved_digest": "71960c94cf4df1f166f8639688354db42ae05b5eaef008f7c900a55759ff6cc8",
+  "expected_digest": "71960c94cf4df1f166f8639688354db42ae05b5eaef008f7c900a55759ff6cc8",
+  "verification": "PASS"
+}

@@ -1,0 +1,45 @@
+{
+  "schema": "open-model-distribution.replica-manifest.v0",
+  "chunk_index": 2,
+  "chunk_identity": "sha256:71960c94cf4df1f166f8639688354db42ae05b5eaef008f7c900a55759ff6cc8",
+  "chunk_digest": "71960c94cf4df1f166f8639688354db42ae05b5eaef008f7c900a55759ff6cc8",
+  "replica_count": 5,
+  "replicas": [
+    {
+      "replica": "server_A",
+      "replica_class": "server",
+      "path": "results/23_replication/replicas/server_A/chunk_0002.bin",
+      "digest": "71960c94cf4df1f166f8639688354db42ae05b5eaef008f7c900a55759ff6cc8",
+      "matches_identity": true
+    },
+    {
+      "replica": "mirror_B",
+      "replica_class": "mirror",
+      "path": "results/23_replication/replicas/mirror_B/chunk_0002.bin",
+      "digest": "71960c94cf4df1f166f8639688354db42ae05b5eaef008f7c900a55759ff6cc8",
+      "matches_identity": true
+    },
+    {
+      "replica": "peer_C",
+      "replica_class": "peer",
+      "path": "results/23_replication/replicas/peer_C/chunk_0002.bin",
+      "digest": "71960c94cf4df1f166f8639688354db42ae05b5eaef008f7c900a55759ff6cc8",
+      "matches_identity": true
+    },
+    {
+      "replica": "archive_D",
+      "replica_class": "archive",
+      "path": "results/23_replication/replicas/archive_D/chunk_0002.bin",
+      "digest": "71960c94cf4df1f166f8639688354db42ae05b5eaef008f7c900a55759ff6cc8",
+      "matches_identity": true
+    },
+    {
+      "replica": "cache_E",
+      "replica_class": "local cache",
+      "path": "results/23_replication/replicas/cache_E/chunk_0002.bin",
+      "digest": "71960c94cf4df1f166f8639688354db42ae05b5eaef008f7c900a55759ff6cc8",
+      "matches_identity": true
+    }
+  ],
+  "statement": "Same chunk identity, multiple independent storage locations."
+}

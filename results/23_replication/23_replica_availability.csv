@@ -1,0 +1,9 @@
+replicas_R,toy_availability_score,single_failure_survivable,two_failures_survivable
+1,1,False,False
+2,2,True,False
+3,3,True,True
+4,4,True,True
+5,5,True,True
+6,6,True,True
+7,7,True,True
+8,8,True,True

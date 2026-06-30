@@ -1,0 +1,28 @@
+{
+  "notebook": "23_replication.ipynb",
+  "title": "Replication Specifies Availability",
+  "primary_specification": "replication",
+  "statement": "Verified chunks become available when they exist as independent replicas.",
+  "equations": [
+    "I_i=H(c_i)",
+    "L_i={ell_i1,...,ell_iR}",
+    "R_i=|L_i|",
+    "A_i proportional to R_i",
+    "H(c_i^(ell_j))=I_i"
+  ],
+  "outputs": {
+    "chunk_identity": "results/23_replication/23_chunk_identity.json",
+    "replica_manifest": "results/23_replication/23_replica_manifest.json",
+    "replica_locations_csv": "results/23_replication/23_replica_locations.csv",
+    "replica_verification_csv": "results/23_replication/23_replica_verification.csv",
+    "replica_failure_csv": "results/23_replication/23_replica_failure.csv",
+    "replica_selection": "results/23_replication/23_replica_selection.json",
+    "replica_availability_csv": "results/23_replication/23_replica_availability.csv",
+    "replica_map_figure": "figures/23_replica_map.png",
+    "replica_verification_figure": "figures/23_replica_verification.png",
+    "replica_failure_figure": "figures/23_replica_failure.png",
+    "replica_selection_figure": "figures/23_replica_selection.png",
+    "replication_availability_figure": "figures/23_replication_availability.png",
+    "replica_manifest_figure": "figures/23_replica_manifest.png"
+  }
+}
